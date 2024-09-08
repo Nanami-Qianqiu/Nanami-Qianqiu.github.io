@@ -31,7 +31,7 @@ custom_file_path:
   #bodyEnd: source/_data/body-end.swig
   #variable: source/_data/variables.styl
   #mixin: source/_data/mixins.styl
-  #style: source/_data/styles.styl
+  #style: themes/next/source/css/_custom/omori.styl
 
 
 # ---------------------------------------------------------------
@@ -163,7 +163,7 @@ sidebar:
 # Sidebar Avatar
 avatar:
   # Replace the default image and set the url here.
-  url: #/images/avatar.gif
+  url: /images/avatar_omori.jpg
   # If true, the avatar will be dispalyed in circle.
   rounded: false
   # If true, the avatar will be rotated with the cursor.
@@ -177,7 +177,9 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
-  #GitHub: https://github.com/yourname || fab fa-github
+  GitHub: https://github.com/Nanami-Qianqiu || fab fa-github
+  Telegram: https://t.me/Rimuru_Chiaki || fab fa-telegram
+  Steam: https://steamcommunity.com/profiles/76561198185249765 || fab fa-steam
   #E-Mail: mailto:yourname@gmail.com || fa fa-envelope
   #Weibo: https://weibo.com/yourname || fab fa-weibo
   #Google: https://plus.google.com/yourname || fab fa-google
@@ -995,3 +997,9 @@ vendors:
 css: css
 js: js
 images: images
+
+# Custom css
+injects:
+  style:
+    - source/css/_custom/omori.styl
+
