@@ -103,3 +103,79 @@ void BuildFail() {
 2. 对于每个节点，如果当前字符的子节点存在，就让该子节点的 fail 指针指向父节点的 fail 节点的对应子节点。
 3. 如果当前节点没有子节点，则将子结点节点设置为 fail所指向的节点，这样可以保证永远可以通过 fail 指针跳转。
 
+### 模板
+```cpp
+class AC_Automaton {
+private:
+    struct Node {
+        vector<int> children;
+        int cnt;
+        int fail;
+        Node() : children(vector<int>(26, 0)), cnt(0), fail(0) {}
+    };
+
+    vector<Node> tr_;
+    int idx_;
+
+    static int GetNum(char c) {
+        if ('a' <= c && c <= 'z') return c - 'a';
+        else if ('A' <= c && c <= 'Z') return c - 'A' + 26;
+        else return c - '0' + 52;
+    }
+
+public:
+    AC_Automaton() : tr_(1), idx_(0) {}
+
+    void Insert(string &s) {
+        int cur = 0;
+        for (char &c: s) {
+            int x = GetNum(c);
+            if (!tr_[cur].children[x]) {
+                tr_.emplace_back();
+                tr_[cur].children[x] = ++idx_;
+            }
+            cur = tr_[cur].children[x];
+        }
+        tr_[cur].cnt++;
+    }
+
+    void BuildFail() {
+        queue<int> q;
+        for (int i = 0; i < 26; i++) {
+            if (tr_[0].children[i]) {
+                q.push(tr_[0].children[i]);
+            }
+        }
+        while (!q.empty()) {
+            int cur = q.front();
+            q.pop();
+            for (int i = 0; i < 26; i++) {
+                int &child = tr_[cur].children[i];
+                int fail = tr_[cur].fail;
+                if (child) {
+                    tr_[child].fail = tr_[fail].children[i];
+                    q.push(child);
+                } else {
+                    child = tr_[fail].children[i];
+                }
+            }
+        }
+    }
+
+    int GetUniqueCount(string &s) {
+        int cur = 0;
+        int sum = 0;
+        vector<bool> vis(idx_ + 1, false);
+        for (char c : s) {
+            int x = GetNum(c);
+            cur = tr_[cur].children[x];
+            for (int i = cur; i && !vis[i]; i = tr_[i].fail) {
+                sum += tr_[i].cnt;
+                vis[i] = true;
+            }
+        }
+        return sum;
+    }
+
+};
+```
