@@ -27,21 +27,21 @@ mathjax: true
 
 **Опр 1.3**
 > $I$ - замкнутый невырожденный брус и $I=\bigcup\limits_{i=1}^n I_i$, $I_i$ - непересекающиеся брусы, 
-> тогда набор $\mathbb{T}=\{I_i\}^k_{i=1}$ - разбиение бруса $I$.
+> тогда набор $\mathbb{T}=\\{I_i\\}^k_{i=1}$ - разбиение бруса $I$.
 
 **Опр 1.4**
 > Диаметром произвольного ограниченного мн-ва $M\subset \mathbb{R}^n$ называется
 > $d(M)=\sup\limits_{x,y\in M}||x-y||$, где $||x-y||=\sqrt{\sum\limits_{i=1}^n(x_i-y_i)^2}$ - евклидова расстояние.
 
 **Опр 1.5**
-> Масштабом разбиения $\mathbb{T}=\{I_i\}^k_{i=1}$ бруса $I$ называется
+> Масштабом разбиения $\mathbb{T}=\\{I_i\\}^k_{i=1}$ бруса $I$ называется
 > число $\delta(\mathbb{T})=\Delta_\mathbb{T}=\max\limits_{i=1..k}d(I_i)$.
 
 ---
 $\forall I_i$ выбраны точки $x_i\in I_i$
 
 **Опр 1.6**
-> Набор $\xi=\{x_i\}^k_{i=1}$ называется отмеченными точками. 
+> Набор $\xi=\\{x_i\\}^k_{i=1}$ называется отмеченными точками. 
  
 **Опр 1.7**
 > $(\mathbb{T},\xi)$ - разбиение бруса $I$ с отмеченными точками.
@@ -69,7 +69,7 @@ $$
 **Пример**
 1. $f=const$.
 
-$\forall (\mathbb{T},\xi):\sigma(f,\mathbb{T},\xi)=f\sum\limits_{i=1}^k const\cdot|I_i|=const |I|$
+$\forall (\mathbb{T},\xi):\sigma(f,\mathbb{T},\xi)=\sum\limits_{i=1}^k const\cdot|I_i|=const |I|$
 $$
 \int_I f(x)dx=const\cdot|I|
 $$
