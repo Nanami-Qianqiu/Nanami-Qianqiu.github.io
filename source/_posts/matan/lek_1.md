@@ -12,7 +12,7 @@ mathjax: true
 
 **Опр 1.1**
 > Замкнутым брусом (промежутком, коор. пром.), 
-> называется мн-во $I=\{x\in\mathbb{R}^n\mid a_i\leqslant x_i \leqslant b_i, i=1..n\}$
+> называется мн-во $I=\\{x\in\mathbb{R}^n\mid a_i\leqslant x_i \leqslant b_i, i=1..n\\}$
 
 **Опр 1.2**
 > Мерой бруса будем называть его объем: $\mu(I)=|I|=\prod\limits_{i=1}^n(b_i-a_i)$
