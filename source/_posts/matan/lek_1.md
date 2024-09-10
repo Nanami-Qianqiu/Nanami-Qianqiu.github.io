@@ -92,6 +92,7 @@ $(\mathbb{T},\xi)$, $\sigma(f,\mathbb{T},\xi)=\sum\limits_{i=1}^k 0\cdot|I_i|=0$
 Поэтому $f$ неинтегрируема на $I$.
 
 3. $\int\int\limits_{0\leqslant x\leqslant 1,0\leqslant y\leqslant 1}xydxdy$
+
 Разделим кварад на $n^2$ маленьких квадратов. В каждом квадрате выберем точку $(x_i,y_i)$.
 $$
     \sigma(f,\mathbb{T},\xi)=\sum\limits_{i=1}^n\sum\limits_{j=1}^n \frac{i}{n}\cdot\frac{j}{n}\cdot\frac{1}{n^2}=
