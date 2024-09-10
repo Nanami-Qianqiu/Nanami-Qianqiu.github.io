@@ -23,6 +23,8 @@ mathjax: true
 2. Аддитивность: $I=\bigcup\limits_{i=1}^n I_i$, $I_i$ - непересекающиеся брусы, тогда $|I|=\sum\limits_{i=1}^n|I_i|$
 3. Монотонность: $I\subset \bigcup\limits_{i=1}^n I_i$, тогда $|I|\leqslant \sum\limits_{i=1}^n|I_i|$
 
+<!--more-->
+
 **Опр 1.3**
 > $I$ - замкнутый невырожденный брус и $I=\bigcup\limits_{i=1}^n I_i$, $I_i$ - непересекающиеся брусы, 
 > тогда набор $\mathbb{T}=\{I_i\}^k_{i=1}$ - разбиение бруса $I$.
