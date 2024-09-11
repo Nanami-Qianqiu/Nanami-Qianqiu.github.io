@@ -2,7 +2,7 @@
 title: AC自动机学习笔记
 categories:
   - Algorithms
-tags: [AC自动机, 算法, algorithm, 字符串]
+tags: [AC自动机, 算法, algorithms, 字符串]
 mathjax: true
 ---
 
