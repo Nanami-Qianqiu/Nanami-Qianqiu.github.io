@@ -117,7 +117,7 @@ darkmode: false
 # External url should start with http:// or https://
 menu:
   home: / || fa fa-home
-  about: /about/ || fa fa-user
+  about: /about-me/ || fa fa-user
   tags: /tags/ || fa fa-tags
   categories: /categories/ || fa fa-th
   archives: /archives/ || fa fa-archive
@@ -697,13 +697,13 @@ leancloud_visitors:
   # Required for apps from CN region
   server_url: # <your server url>
   # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
-  # If you don't care about security in leancloud counter and just want to use it directly
+  # If you don't care about-me security in leancloud counter and just want to use it directly
   # (without hexo-leancloud-counter-security plugin), set `security` to `false`.
   security: true
 
 # Another tool to show number of visitors to each article.
 # Visit https://console.firebase.google.com/u/0/ to get apiKey and projectId.
-# Visit https://firebase.google.com/docs/firestore/ to get more information about firestore.
+# Visit https://firebase.google.com/docs/firestore/ to get more information about-me firestore.
 firestore:
   enable: false
   collection: articles # Required, a string collection name to access firestore database

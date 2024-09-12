@@ -34,7 +34,7 @@
 Issue resolved: N/A
 
 ## What is the new behavior?
-<!-- Description about this pull, in several words -->
+<!-- Description about-me this pull, in several words -->
 
 - Screenshots with this changes: N/A
 - Link to demo site with this changes: N/A
