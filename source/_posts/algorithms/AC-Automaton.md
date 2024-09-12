@@ -1,5 +1,6 @@
 ---
 title: AC自动机学习笔记
+data: 2024-09-09 01:21:37
 categories:
   - Algorithms
 tags: [AC自动机, 算法, algorithms, 字符串]
