@@ -4,7 +4,14 @@ date: 2024-09-09 01:21:37
 permalink: about-me/
 ---
 
-### 中文简介
+{% aplayer "寻遍星空" "晴海 / 公兔 / 洛天依"  
+"https://static.cdn.menci.xyz/menci-oi-blog/music/xbxk/xbxk.ogg" 
+"https://static.cdn.menci.xyz/menci-oi-blog/music/xbxk/xbxk.png" 
+"lrc:https://static.cdn.menci.xyz/menci-oi-blog/music/xbxk/xbxk.lrc"
+ %}
+
+
+### 中文简介 
 Rimuru-Chiaki（リムル ちあき）, 分别为《关于我转生变成史莱姆这档事》中利姆露和《超级弹丸论破2:再见绝望学园》中七海千秋的名字。
 
 现大二，就读于俄罗斯高等经济学院（Higher School of Economics，HSE）应用数学与计算机科学专业。
