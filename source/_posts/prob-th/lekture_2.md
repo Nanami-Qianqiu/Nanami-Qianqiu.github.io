@@ -2,6 +2,7 @@
 title: Теория вероятностей 2
 date: 2024-09-09 11:15:33
 published: false
+mathjax: true
 ---
 
 ### Лекция 2
