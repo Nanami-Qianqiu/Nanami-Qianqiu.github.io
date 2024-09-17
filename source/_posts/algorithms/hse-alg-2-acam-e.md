@@ -10,7 +10,7 @@ tags:
 categories: [Algorithms, АиСД-2]
 permalink: hse-alg-2-acam-e
 mathjax: true
-published: false
+published: true
 ---
 
 > 给定一个长度为 $1\leq n\leq 100$ 的字符集，$0 \leq p \leq 10$ 个长度不超过 $\min(m,10)$ 的禁止串，
