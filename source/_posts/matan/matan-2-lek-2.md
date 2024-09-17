@@ -121,4 +121,4 @@ $|D_i|=2^n|I_i|$, чтобы $\sum\limits_{i}|D_i|<\varepsilon$, нужно $\su
 2\) $\forall\varepsilon>0:\ \\{I_i\\}$ - набор открытых брусов, $M\subset I_i$ и $\sum\limits_{i}|I_i|<\varepsilon$.
 
 Далее $\overline{I_i}$ - добавлены границы к $I_i\Rightarrow|\overline{I_i}|=|I_i|$, $I_i\subset\overline{I_i}$,
- тогда верно $M\subset\I_i\subset\overline{I_i}$ и $\sum\limits_{i}|\overline{I_i}|<\varepsilon$, значит $M$ - мн-во меры нуль по Лебегу.
+ тогда верно $M\subset I_i\subset\overline{I_i}$ и $\sum\limits_{i}|\overline{I_i}|<\varepsilon$, значит $M$ - мн-во меры нуль по Лебегу.
