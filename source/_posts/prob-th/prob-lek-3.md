@@ -1,7 +1,7 @@
 ---
 title: 「Теорвер」Лекция-3
 date: 2024-09-16 10:56:25
-
+updated: 2024-09-16 10:56:25
 tags: [Теория вероятностей]
 permalink: prob-lek-3
 mathjax: true
